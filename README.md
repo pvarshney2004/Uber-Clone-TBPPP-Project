@@ -7,15 +7,15 @@ Backend: Node.js with Express.js for building scalable REST APIs. <br/>
 Database: MongoDB (Compass) for managing user, driver, and ride data. <br/>
 Real-Time Updates: Socket.IO for real-time communication between users and drivers. <br/>
 
-## Group Members Individual Task Distribution <br/>
-# 1. Frontend Developer <br/>
-# 2. Backend Developer 1 <br/>
-# 3. Backend Developer 2 <br/>
-# 4. Database Manager <br/>
+# Group Members Individual Task Distribution <br/>
+## 1. Frontend Developer <br/>
+## 2. Backend Developer 1 <br/>
+## 3. Backend Developer 2 <br/>
+## 4. Database Manager <br/>
 
-## 11 Weeks Week-by-Week Plan <br/>
+# 11 Weeks Week-by-Week Plan <br/>
 
-# Week 1: Planning and Setup <br/>
+## Week 1: Planning and Setup <br/>
 Frontend Developer<br/>
 Set up the React app structure using Create React App or Vite.<br/>
 Add basic routing for key pages: Login, Signup, Ride Booking, and Profile.<br/>
