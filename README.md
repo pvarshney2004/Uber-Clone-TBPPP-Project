@@ -7,7 +7,7 @@ Backend: Node.js with Express.js for building scalable REST APIs. <br/>
 Database: MongoDB (Compass) for managing user, driver, and ride data. <br/>
 Real-Time Updates: Socket.IO for real-time communication between users and drivers. <br/>
 
-# Group Members Individual Task Distribution <br/> <br/>
+# Group Members Individual Task Distribution <br/>
 ## 1. Frontend Developer <br/>
 ## 2. Backend Developer 1 <br/>
 ## 3. Backend Developer 2 <br/>
@@ -25,10 +25,8 @@ Create the project folder structure: routes/, models/, controllers/. <br/>
 Implement basic user and driver authentication using JWT. <br/><br/>
 Database Manager <br/>
 Design schemas for users, drivers, and basic ride structure. <br/>
-Set up MongoDB Atlas and share connection strings. <br/><br/>
-Project Coordination <br/>
-Finalize tools: Trello/Notion for task tracking, GitHub for version control. <br/>
-Plan API contracts and maintain documentation (e.g., Swagger). <br/><br/><br/>
+Set up MongoDB Atlas and share connection strings. <br/><br/><br/>
+
 Week 2-3: User and Driver Management
 Frontend Developer
 Create UI for Signup, Login, and Profile pages.
