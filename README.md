@@ -13,22 +13,22 @@ Real-Time Updates: Socket.IO for real-time communication between users and drive
 ## 3. Backend Developer 2 <br/>
 ## 4. Database Manager <br/>
 
-# 11 Weeks Week-by-Week Plan <br/>
+# 11 Weeks Week-by-Week Plan <br/><br/>
 
 ## Week 1: Planning and Setup <br/>
 Frontend Developer<br/>
 Set up the React app structure using Create React App or Vite.<br/>
 Add basic routing for key pages: Login, Signup, Ride Booking, and Profile.<br/>
 Backend Developers<br/>
-Set up the Express.js backend and integrate MongoDB.
-Create the project folder structure: routes/, models/, controllers/.
-Implement basic user and driver authentication using JWT.
-Database Manager
-Design schemas for users, drivers, and basic ride structure.
-Set up MongoDB Atlas and share connection strings.
-Project Coordination
-Finalize tools: Trello/Notion for task tracking, GitHub for version control.
-Plan API contracts and maintain documentation (e.g., Swagger).
+Set up the Express.js backend and integrate MongoDB. <br/>
+Create the project folder structure: routes/, models/, controllers/. <br/>
+Implement basic user and driver authentication using JWT. <br/>
+Database Manager <br/>
+Design schemas for users, drivers, and basic ride structure. <br/>
+Set up MongoDB Atlas and share connection strings. <br/>
+Project Coordination <br/>
+Finalize tools: Trello/Notion for task tracking, GitHub for version control. <br/>
+Plan API contracts and maintain documentation (e.g., Swagger). <br/><br/>
 Week 2-3: User and Driver Management
 Frontend Developer
 Create UI for Signup, Login, and Profile pages.
