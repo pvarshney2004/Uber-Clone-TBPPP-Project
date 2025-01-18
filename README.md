@@ -3,6 +3,6 @@ An advanced ride-hailing application built using the MERN stack (MongoDB, Expres
 
 # 🛠️ Tech Stack
 Frontend: React.js and Google Maps API for location services. <br/>
-Backend: Node.js with Express.js for building scalable REST APIs. 
-Database: MongoDB (Compass) for managing user, driver, and ride data.
-Real-Time Updates: Socket.IO for real-time communication between users and drivers.
+Backend: Node.js with Express.js for building scalable REST APIs. <br/>
+Database: MongoDB (Compass) for managing user, driver, and ride data. <br/>
+Real-Time Updates: Socket.IO for real-time communication between users and drivers. <br/>
