@@ -13,7 +13,7 @@ Real-Time Updates: Socket.IO for real-time communication between users and drive
 ## 3. Backend Developer 2 <br/>
 ## 4. Database Manager <br/><br/>
 
-# 11 Weeks Week-by-Week Plan <br/><br/>
+# 11 Weeks Week-by-Week Plan <br/>
 
 ## Week 1: Planning and Setup <br/>
 Frontend Developer<br/>
