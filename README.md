@@ -31,7 +31,7 @@ Database Manager<br/>
 
 Design schemas for users, drivers, and basic ride structure.<br/>
 Set up MongoDB Atlas and share connection strings.<br/>
-## Week 2: Finalize User and Driver Management<br/><br/>
+## Week 2: Finalize User and Driver Management<br/>
 Frontend Developer<br/>
 
 Complete UI for Signup, Login, and Profile pages.<br/>
@@ -58,7 +58,7 @@ Database Manager<br/>
 
 Extend schema to store ride details (pickup, drop-off, status).<br/>
 Optimize database queries for ride history retrieval.<br/>
-## Week 4: Payment Integration and Driver-Rider Matching<br/><br/>
+## Week 4: Payment Integration and Driver-Rider Matching<br/>
 Frontend Developer<br/>
 
 Add a payment page UI with options like card, UPI, or wallet.<br/>
@@ -99,7 +99,7 @@ Test database performance and resolve bottlenecks.<br/>
 Project Coordination<br/>
 
 Ensure end-to-end testing and feature integration are completed.<br/>
-##Week 7: Deployment and Finalization<br/><br/>
+## Week 7: Deployment and Finalization<br/>
 Frontend Developer<br/>
 
 Deploy the React app to Vercel or Netlify.<br/><br/>
