@@ -16,59 +16,59 @@ Real-Time Updates: Socket.IO for real-time communication between users and drive
 # 7 Weeks Week-by-Week Plan <br/>
 
 ## Week 1: Planning, Setup, and User Authentication <br/>
-Frontend Developer
+Frontend Developer<br/>
 
-Set up the React app structure using Create React App or Vite.
-Add basic routing for key pages: Login, Signup, Ride Booking, and Profile.
-Start creating UI for Signup and Login pages.
-Backend Developers
+Set up the React app structure using Create React App or Vite.<br/>
+Add basic routing for key pages: Login, Signup, Ride Booking, and Profile.<br/>
+Start creating UI for Signup and Login pages.<br/><br/>
+Backend Developers<br/>
 
-Set up the Express.js backend and integrate MongoDB.
-Create the project folder structure: routes/, models/, controllers/.
-Implement basic user and driver authentication using JWT.
-Start working on User and Driver Signup/Login APIs.
-Database Manager
+Set up the Express.js backend and integrate MongoDB.<br/>
+Create the project folder structure: routes/, models/, controllers/.<br/>
+Implement basic user and driver authentication using JWT.<br/>
+Start working on User and Driver Signup/Login APIs.<br/><br/>
+Database Manager<br/>
 
-Design schemas for users, drivers, and basic ride structure.
-Set up MongoDB Atlas and share connection strings.
-Week 2: Finalize User and Driver Management
-Frontend Developer
+Design schemas for users, drivers, and basic ride structure.<br/>
+Set up MongoDB Atlas and share connection strings.<br/>
+Week 2: Finalize User and Driver Management<br/><br/>
+Frontend Developer<br/>
 
-Complete UI for Signup, Login, and Profile pages.
-Use Redux/Context API for state management (user authentication).
-Backend Developers
+Complete UI for Signup, Login, and Profile pages.<br/>
+Use Redux/Context API for state management (user authentication).<br/><br/>
+Backend Developers<br/>
 
-Developer 1: Finalize and test User Signup/Login APIs.
-Developer 2: Finalize and test Driver Signup/Login APIs.
-Add middleware for JWT-based authentication.
-Database Manager
+Developer 1: Finalize and test User Signup/Login APIs.<br/>
+Developer 2: Finalize and test Driver Signup/Login APIs.<br/>
+Add middleware for JWT-based authentication.<br/><br/>
+Database Manager<br/>
 
-Finalize schemas for users and drivers.
-Add validations for data consistency.
-Week 3: Ride Booking System
-Frontend Developer
+Finalize schemas for users and drivers.<br/>
+Add validations for data consistency.<br/>
+Week 3: Ride Booking System<br/>
+Frontend Developer<br/>
 
-Design and integrate Google Maps API for location selection.
-Create a ride request form (pickup and drop-off location, time, etc.).
-Backend Developers
+Design and integrate Google Maps API for location selection.<br/>
+Create a ride request form (pickup and drop-off location, time, etc.).<br/><br/>
+Backend Developers<br/>
 
-Developer 1: Create APIs for ride requests (create, read).
-Developer 2: Implement real-time updates using Socket.IO (ride status updates).
-Database Manager
+Developer 1: Create APIs for ride requests (create, read).<br/>
+Developer 2: Implement real-time updates using Socket.IO (ride status updates).<br/><br/>
+Database Manager<br/>
 
-Extend schema to store ride details (pickup, drop-off, status).
-Optimize database queries for ride history retrieval.
-Week 4: Payment Integration and Driver-Rider Matching
-Frontend Developer
+Extend schema to store ride details (pickup, drop-off, status).<br/>
+Optimize database queries for ride history retrieval.<br/>
+Week 4: Payment Integration and Driver-Rider Matching<br/><br/>
+Frontend Developer<br/>
 
-Add a payment page UI with options like card, UPI, or wallet.
-Add UI for ride status tracking (e.g., "Driver Arrived", "Ride Started").
-Backend Developers
+Add a payment page UI with options like card, UPI, or wallet.<br/>
+Add UI for ride status tracking (e.g., "Driver Arrived", "Ride Started").<br/><br/>
+Backend Developers<br/>
 
-Developer 1: Integrate payment gateway APIs (Razorpay, Stripe).
-Developer 2: Handle payment-related callbacks and store transaction details.
-Create APIs for driver matching (nearest driver based on location).
-Database Manager
+Developer 1: Integrate payment gateway APIs (Razorpay, Stripe).<br/>
+Developer 2: Handle payment-related callbacks and store transaction details.<br/>
+Create APIs for driver matching (nearest driver based on location).<br/><br/>
+Database Manager<br/>
 
 Create a schema for payments and link them to rides.
 Store driver availability and locations for efficient matching.
