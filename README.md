@@ -31,7 +31,7 @@ Database Manager<br/>
 
 Design schemas for users, drivers, and basic ride structure.<br/>
 Set up MongoDB Atlas and share connection strings.<br/>
-##Week 2: Finalize User and Driver Management<br/><br/>
+## Week 2: Finalize User and Driver Management<br/><br/>
 Frontend Developer<br/>
 
 Complete UI for Signup, Login, and Profile pages.<br/>
@@ -45,7 +45,7 @@ Database Manager<br/>
 
 Finalize schemas for users and drivers.<br/>
 Add validations for data consistency.<br/>
-##Week 3: Ride Booking System<br/>
+## Week 3: Ride Booking System<br/>
 Frontend Developer<br/>
 
 Design and integrate Google Maps API for location selection.<br/>
@@ -58,7 +58,7 @@ Database Manager<br/>
 
 Extend schema to store ride details (pickup, drop-off, status).<br/>
 Optimize database queries for ride history retrieval.<br/>
-##Week 4: Payment Integration and Driver-Rider Matching<br/><br/>
+## Week 4: Payment Integration and Driver-Rider Matching<br/><br/>
 Frontend Developer<br/>
 
 Add a payment page UI with options like card, UPI, or wallet.<br/>
@@ -70,45 +70,45 @@ Developer 2: Handle payment-related callbacks and store transaction details.<br/
 Create APIs for driver matching (nearest driver based on location).<br/><br/>
 Database Manager<br/>
 
-Create a schema for payments and link them to rides.
-Store driver availability and locations for efficient matching.
-##Week 5: Notifications and Admin Panel
-Frontend Developer
+Create a schema for payments and link them to rides.<br/>
+Store driver availability and locations for efficient matching.<br/>
+## Week 5: Notifications and Admin Panel<br/>
+Frontend Developer<br/>
 
-Implement notifications for ride status tracking using Firebase Cloud Messaging (FCM).
-Design an admin dashboard for managing users, drivers, and rides.
-Backend Developers
+Implement notifications for ride status tracking using Firebase Cloud Messaging (FCM).<br/>
+Design an admin dashboard for managing users, drivers, and rides.<br/><br/>
+Backend Developers<br/>
 
-Developer 1: Implement push notifications for ride updates.
-Developer 2: Add admin APIs for user and ride management.
-Create analytics APIs (e.g., total rides, earnings).
-Database Manager
+Developer 1: Implement push notifications for ride updates.<br/>
+Developer 2: Add admin APIs for user and ride management.<br/>
+Create analytics APIs (e.g., total rides, earnings).<br/><br/>
+Database Manager<br/>
 
-Write aggregation queries for generating reports.
-##Week 6: Testing and Debugging
-Frontend Developer
+Write aggregation queries for generating reports.<br/>
+## Week 6: Testing and Debugging<br/>
+Frontend Developer<br/>
 
-Conduct UI testing using React Testing Library or Cypress.
-Backend Developers
+Conduct UI testing using React Testing Library or Cypress.<br/><br/>
+Backend Developers<br/>
 
-Write unit tests for APIs using Jest or Mocha.
-Perform integration testing.
-Database Manager
+Write unit tests for APIs using Jest or Mocha.<br/>
+Perform integration testing.<br/><br/>
+Database Manager<br/>
 
-Test database performance and resolve bottlenecks.
-Project Coordination
+Test database performance and resolve bottlenecks.<br/>
+Project Coordination<br/>
 
-Ensure end-to-end testing and feature integration are completed.
-##Week 7: Deployment and Finalization
-Frontend Developer
+Ensure end-to-end testing and feature integration are completed.<br/>
+##Week 7: Deployment and Finalization<br/><br/>
+Frontend Developer<br/>
 
-Deploy the React app to Vercel or Netlify.
-Backend Developers
+Deploy the React app to Vercel or Netlify.<br/><br/>
+Backend Developers<br/>
 
-Deploy the Node.js app to AWS, Render, or Heroku.
-Database Manager
+Deploy the Node.js app to AWS, Render, or Heroku.<br/><br/>
+Database Manager<br/>
 
-Set up database monitoring and backups on MongoDB Atlas.
-Project Coordination
+Set up database monitoring and backups on MongoDB Atlas.<br/>
+Project Coordination<br/>
 
-Prepare project documentation and final presentation/demo.
+Prepare project documentation and final presentation/demo.<br/>
