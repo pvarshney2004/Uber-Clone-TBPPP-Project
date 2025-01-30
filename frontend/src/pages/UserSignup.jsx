@@ -1,20 +1,39 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
+import {useContext} from "react";
+import { UserDataContext } from "../context/userContext";
 
 const UserSignup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [firstname, setfirstname] = useState("");
-  const [lastname, setlastname] = useState("");
+  const [firstName, setfirstname] = useState("");
+  const [lastName, setlastname] = useState("");
   const [userdata, setuserdata] = useState({});
 
-  const submitHandler = (e) => {
+  const navigate = useNavigate();
+  const {user, setuser} = useContext(UserDataContext);
+
+  const submitHandler = async (e) => {
     e.preventDefault();
-    setuserdata({
-      fullName: { firstname: firstname, lastname: lastname },
+    const newUser = {
+      fullname: { firstname: firstName, lastname: lastName },
       email: email,
       password: password,
-    });
+    };
+
+    const response = await axios.post(
+      `${import.meta.env.VITE_BASE_URL}/users/register`,
+      newUser
+    );
+
+    if (response.status === 201) {
+      const data = response.data;
+      setuser(data.user);
+      localStorage.setItem('token', data.token);
+      navigate("/home");
+    }
+
     setEmail("");
     setPassword("");
     setfirstname("");
@@ -39,7 +58,7 @@ const UserSignup = () => {
               required
               placeholder="First Name"
               id="firstname"
-              value={firstname}
+              value={firstName}
               onChange={(e) => {
                 setfirstname(e.target.value);
               }}
@@ -50,7 +69,7 @@ const UserSignup = () => {
               required
               placeholder="Last Name"
               id="lastname"
-              value={lastname}
+              value={lastName}
               onChange={(e) => {
                 setlastname(e.target.value);
               }}

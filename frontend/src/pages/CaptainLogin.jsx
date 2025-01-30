@@ -1,15 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { CaptainDataContext } from "../context/CaptainContext";
+import { useContext } from "react";
+import axios from "axios";
 
 const CaptainLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
-  const [captaindata, setcaptaindata] = useState({});
+  const navigate = useNavigate();
+  const { captain, setCaptain } = useContext(CaptainDataContext);
 
-  const submitHandler = (e) => {
+
+  const submitHandler = async (e) => {
     e.preventDefault();
-    setcaptaindata({ email: email, password: password });
+    const captain = {
+      email: email,
+      password: password,
+    };
+    const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/captains/login`, captain);
+    if(response.status === 200){
+      const data = response.data;
+      setCaptain(data.captain);
+      localStorage.setItem('token', data.token);
+      navigate('/captain-home');
+    }
     setEmail("");
     setpassword("");
     console.log("data received");
@@ -17,6 +33,7 @@ const CaptainLogin = () => {
   return (
     <div className="p-5 flex justify-between flex-col h-screen">
       <div>
+      
         <img
           className="w-20 mb-2"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSVCO4w_adxK32rCXFeKq3_NbLcR9b_js14w&s"
