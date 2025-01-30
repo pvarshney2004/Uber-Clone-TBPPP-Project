@@ -35,12 +35,15 @@ const CaptainSignup = () => {
         vehicleType: vehicleType,
       },
     };
-    const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/captains/register`, captainData);
-    if(response.status === 201){
-      const data = response.data
-      setCaptain(data.captain)
-      localStorage.setItem('token', data.token)
-      navigate('/captain-home')
+    const response = await axios.post(
+      `${import.meta.env.VITE_BASE_URL}/captains/register`,
+      captainData
+    );
+    if (response.status === 201) {
+      const data = response.data;
+      setCaptain(data.captain);
+      localStorage.setItem("token", data.token);
+      navigate("/captain-home");
     }
     setEmail("");
     setPassword("");
@@ -172,8 +175,8 @@ const CaptainSignup = () => {
           </Link>
         </p>
       </div>
-      <div>
-        <p className="text-sm leading-tight">
+      <div className="">
+        <p className="text-sm leading-tight my-5">
           By creating an account, you agree to our{" "}
           <span className="underline">Terms of Service</span> and{" "}
           <span className="underline">Privacy Policy</span>. We are committed to
